@@ -1,0 +1,62 @@
+html,
+body {
+    height: 100%;
+    overflow-x: auto;
+}
+img, iframe, object {
+    max-width: 100%;
+}
+.wrap {
+    min-height: 100%;
+    height: auto;
+    /*margin: 0 auto -100px;*/
+    padding: 0 0 0px;
+}
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+.content {
+    font-size: 12px;
+}
+.footer {
+    height: auto;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+}
+.ray-logo {
+    font-size: 50px;
+}
+.ray-logo::first-letter {
+    color: #c82526;
+}
+.site-error {
+    width: 500px;
+    position: absolute;
+    left: calc(50% - 250px);
+    text-align: center;
+}
+.logo-1 {
+    color: #bc2c36;
+    font-weight: 600;
+}
+.logo-2 {
+    color: #4150af;
+    font-weight: 600;
+}
+.logo-3 {
+    color: #2a8b20;
+    font-weight: 600;
+}
+.logo-4 {
+    color: #945a95;
+    font-weight: 600;
+}
+.logo-5 {
+    color: #cb2a39;
+    font-weight: 600;
+}
+.logo-6 {
+    color: #3a42be;
+    font-weight: 600;
+}
